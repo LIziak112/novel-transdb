@@ -1,0 +1,4 @@
+# 机翻腔/危险词表：每行一个，# 开头为注释
+# 用法：qc demo --badwords-file badwords_example.txt --save
+手袋
+兜帽

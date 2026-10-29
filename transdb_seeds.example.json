@@ -1,0 +1,18 @@
+{
+  "rules": [
+    {"book_id": "*", "category": "syntax", "severity": "warn", "en_pattern": "",
+     "bad_zh": "被[^，。！？；：“”]{1,10}所[一-鿿]{1,4}",
+     "good_zh": "删去“被…所…”，改为主动动词链或主谓顺承句",
+     "note": "示例：欧化被动句式（通用句式规则，可直接使用）"},
+    {"book_id": "*", "category": "syntax", "severity": "warn", "en_pattern": "",
+     "bad_zh": "(?:进行|作出|加以)了?[^，。！？]{0,6}的(?:观察|审视|回应)",
+     "good_zh": "直接用具体动词（“进行了仔细的观察” → “细细打量”）",
+     "note": "示例：弱动词 + 抽象名词堆叠"},
+    {"book_id": "*", "category": "trap", "severity": "warn",
+     "en_pattern": "\\b(?:on|by)\\s+the\\s+bank\\b",
+     "bad_zh": "银行",
+     "good_zh": "河岸 / 堤岸（金融语境才译银行）",
+     "note": "示例：bank 消歧——on the bank 多指在岸上，不一定是银行"}
+  ],
+  "cliches": []
+}

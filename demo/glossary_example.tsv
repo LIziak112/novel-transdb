@@ -1,0 +1,5 @@
+# 术语表：英文<TAB>中文，# 开头为注释
+# 用法：glossary load demo glossary_example.tsv
+Eve	伊芙
+brandy	白兰地
+captain	船长
